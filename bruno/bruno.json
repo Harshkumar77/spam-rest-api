@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Spam Rest API",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

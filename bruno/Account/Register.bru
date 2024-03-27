@@ -1,0 +1,20 @@
+meta {
+  name: Register
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://127.0.0.1:8000/api/auth/register
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "last_name" : "yellow",
+    "first_name":"",
+    "password":"asdfdsafasd",
+    "phone_number":"+919999999991"
+  }
+}
