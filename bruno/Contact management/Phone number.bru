@@ -1,17 +1,13 @@
 meta {
-  name: Search
+  name: Phone number
   type: http
-  seq: 2
+  seq: 3
 }
 
 get {
-  url: http://127.0.0.1:8000/api/search?q=ght
+  url: http://127.0.0.1:8000/api/phone-number/+919999999991
   body: json
   auth: none
-}
-
-query {
-  q: ght
 }
 
 headers {

@@ -5,16 +5,17 @@ meta {
 }
 
 post {
-  url: http://127.0.0.1:8000/api/auth/register
+  url: http://127.0.0.1:8000/api/spam
   body: json
   auth: none
 }
 
+headers {
+  Access-Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZXhwIjoxNzExNTkzNjE2fQ.ZnH5X7wrhJoFziRJBxxOYgzrF7pNuhfF8PQYNVcmXDY
+}
+
 body:json {
   {
-    "last_name" : "yellow",
-    "first_name":"",
-    "password":"asdfdsafasd",
-    "phone_number":"+919999999991"
+    "phone_number":"+919999999993"
   }
 }

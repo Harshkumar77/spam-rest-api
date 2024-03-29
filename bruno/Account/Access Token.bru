@@ -1,17 +1,17 @@
 meta {
-  name: Logout
+  name: Access Token
   type: http
-  seq: 3
+  seq: 4
 }
 
-post {
-  url: http://127.0.0.1:8000/api/auth/logout
+get {
+  url: http://127.0.0.1:8000/api/auth/access_token
   body: json
   auth: none
 }
 
 headers {
-  Refresh-Token: qVh_uFN2YEkEeewr4oZdDDG5v0VtTR2dd6Zo5aVjYOM
+  Refresh-Token: N6xC_4ctL3t5HlKs2QhwySc0OvIrEdxZryYxHUfONGE
 }
 
 body:json {

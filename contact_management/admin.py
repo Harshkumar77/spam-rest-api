@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import SpamReport, Contact
 
-# Register your models here.
+admin.site.register(SpamReport)
+admin.site.register(Contact)
